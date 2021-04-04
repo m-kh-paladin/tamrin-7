@@ -7,7 +7,6 @@ header p {
 }
 /***************************************** col - right ********************************************/
 
-
 .details {
   padding: 10px;
 }
@@ -70,6 +69,9 @@ header p {
 
 .content-details .text-content {
   font-size: 0.8em;
+  width: 80%;
+  float: left;
+  text-align: right;
 }
 .tags {
   padding: 10px;
