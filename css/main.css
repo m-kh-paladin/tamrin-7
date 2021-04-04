@@ -7,9 +7,7 @@ header p {
 }
 /***************************************** col - right ********************************************/
 
-img {
-  max-width: 100%;
-}
+
 .details {
   padding: 10px;
 }
@@ -29,11 +27,12 @@ img {
   background-color: #fff;
   border: 1px solid #000;
   cursor: pointer;
+  font-family: vazir;
 }
 
 .comments-parent {
   float: left;
-  padding-top: 6px;
+  padding-top: 9px;
 }
 .read-more .comments {
   color: #000;
