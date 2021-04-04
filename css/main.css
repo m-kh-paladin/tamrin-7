@@ -1,0 +1,91 @@
+@import "./global.css";
+
+header h1,
+header p {
+  text-align: center;
+  padding: 15px;
+}
+/***************************************** col - right ********************************************/
+
+img {
+  max-width: 100%;
+}
+.details {
+  padding: 10px;
+}
+.date {
+  padding: 10px 0;
+}
+.details p {
+  padding: 10px 0 25px;
+  line-height: 1.7em;
+  text-align: justify;
+}
+.date p time {
+  color: gray;
+}
+.read-more button {
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.comments-parent {
+  float: left;
+  padding-top: 6px;
+}
+.read-more .comments {
+  color: #000;
+  padding-left: 7px;
+}
+.read-more .cm-number {
+  background-color: #000;
+  color: #fff;
+  padding: 0px 5px;
+}
+@media screen and (min-width: 780px) {
+  .col-right {
+    width: 70%;
+    float: right;
+    padding-left: 24px;
+  }
+}
+/***************************************** col - left ********************************************/
+@media screen and (min-width: 780px) {
+  .col-left {
+    width: 30%;
+    float: left;
+    margin-top: 16px;
+  }
+}
+.content-details {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+.content-details .pic-content {
+  width: 20%;
+  float: right;
+  padding-left: 10px;
+}
+
+.content-details .text-content {
+  font-size: 0.8em;
+}
+.tags {
+  padding: 10px;
+}
+
+.tags a {
+  background-color: rgb(211, 211, 211);
+  color: #000;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+}
+
+.tags a:nth-child(1) {
+  background-color: #000;
+  display: inline-block;
+  color: #fff;
+}
